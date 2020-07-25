@@ -14,17 +14,38 @@
 	</extension>
 </addon>
 
-<addon id="ptv.bezerra.PGRM" name="PTV - Repo" version="0.0.1" provider-name="Pablo Bezerra">
-	<extension point="xbmc.addon.repository" name="PTV - Repo">
-		<info compressed="false">http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repo PTV Bezerra</summary>
-		<description>Aqui E Um Repositorio Aonde Vai Verificar Atualozacoes Do Addon</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon id="ptv.bezerra.PGRM"
+       name="[COLOR white][B]PTV - bezerra[/B][/COLOR]"
+       version="1.0"
+       provider-name="Pablo bezerra">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>PTV - Bezerra: Canais de Graça</summary>
+    <description>
+        Aviso: Addon em beta
+
+    </description>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>
