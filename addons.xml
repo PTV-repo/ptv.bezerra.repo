@@ -13,4 +13,18 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="ptv.bezerra.PGRM" name="PTV - Repo" version="0.0.1" provider-name="Pablo Bezerra">
+	<extension point="xbmc.addon.repository" name="PTV - Repo">
+		<info compressed="false">http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo PTV Bezerra</summary>
+		<description>Aqui E Um Repositorio Aonde Vai Verificar Atualozacoes Do Addon</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 </addons>
