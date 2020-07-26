@@ -2,7 +2,7 @@
 <addons>
 <addon id="ptv.bezerra.PGRM"
        name="[COLOR white][B]PTV - bezerra[/B][/COLOR]"
-       version="0.2"
+       version="0.1"
        provider-name="Pablo bezerra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -35,7 +35,7 @@
   </extension>
 </addon>
 
-<addon id="ptv.bezerra.repo" name="PTV - Repo" version="0.0.3" provider-name="Mafarricos">
+<addon id="ptv.bezerra.repo" name="PTV - Repo" version="0.0.2" provider-name="Mafarricos">
 	<extension point="xbmc.addon.repository" name="PTV - Repo">
 		<info compressed="false">http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/PTV-repo/ptv.bezerra.repo/master/addons.xml.md5</checksum>
