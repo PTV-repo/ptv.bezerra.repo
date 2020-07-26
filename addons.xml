@@ -2,7 +2,7 @@
 <addons>
 ï»¿<addon id="ptv.bezerra.PGRM"
        name="[COLOR white][B]PTV - bezerra[/B][/COLOR]"
-       version="0.2"
+       version="0.1"
        provider-name="Pablo bezerra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
